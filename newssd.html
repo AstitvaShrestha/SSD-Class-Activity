@@ -71,9 +71,14 @@
         }
 
         /* --- Main Content & Sections --- */
-        main {
-            padding-top: 2rem;
-            padding-bottom: 2rem;
+        .mb-5 {
+            margin-bottom: 0 !important;
+        }
+        
+        main.container {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
         }
         
         section {
@@ -232,6 +237,10 @@
         </div>
     </header>
 
+    <div class="container mt-4">
+        <div class="py-2"></div>
+    </div>
+
     <main class="container">
         <section id="about" class="card bg-white mb-5">
             <h2>About this Course</h2>
@@ -253,7 +262,7 @@
     </main> 
 
     <main class="container">
-        <section id="cpolicy" class="card bg-white mb-5">
+        <section id="cpolicy" class="card bg-white my-4">
             <div class="card-body">
                 <h2>Course Policy</h2>
                 <div class="accordion" id="policyAccordion">
@@ -447,6 +456,10 @@
         </section>
 
     </main>
+
+    <div class="container mt-4">
+        <div class="py-2"></div>
+    </div>
 
     <footer class="py-5 text-center">
         <div class="container">
